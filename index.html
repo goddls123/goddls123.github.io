@@ -2,9 +2,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Jun Hyoung Lee</title>
   </head>
   <body>
-    <div>hello world</div>
+    <h1>Tennis market</h1>
+    <div id="text_welcome">
+      Welcome to Tennis Marke! <br />
+      Enjoy your shopping.
+      <br />
+      <br />
+      <a href="./orderlist.html"> order list</a>
+    </div>
+    <ul class="card_list">
+      <li class="card">
+        <img class="card_img" src="./img/redRacket.png" alt="" />
+        <p class="card_title">Red Racket</p>
+        <input
+          class="card_buton"
+          type="button"
+          value="order "
+          onclick="alert(1)"
+        />
+      </li>
+      <li class="card">
+        <img class="card_img" src="./img/blackRacket.png" alt="" />
+        <p class="card_title">BlackRacket</p>
+        <input
+          class="card_buton"
+          type="button"
+          value="order "
+          onclick="alert(2)"
+        />
+      </li>
+      <li class="card">
+        <img class="card_img" src="./img/blueRacket.png" alt="" />
+        <p class="card_title">Blue Racket</p>
+        <input
+          class="card_buton"
+          type="button"
+          value="order "
+          onclick="alert(3)"
+        />
+      </li>
+    </ul>
   </body>
 </html>
