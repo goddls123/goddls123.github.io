@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+.card_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card img {
+  /* width: 100%; */
+}
+
+.card {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  justify-content: center;
+}
+.card p {
+  text-align: center;
+}
